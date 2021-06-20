@@ -6,8 +6,8 @@ is to to provide a demo of my programming capeabilities and display my understan
 
 Check the api folder and configure the app.py to your liking. Put in whatever email username you wish to use as the owner of the website, the password relating to that email, and your email provider's smtp server. You will usually find it via search engine. Usually the smtp server is: smtp.domain.tld.
 
->**If you are using Gmail** you may have to **enable less secure apps** (by following this guide)[https://support.google.com/accounts/answer/6010255?hl=en#zippy=%2Cif-less-secure-app-access-is-off-for-your-account%2Cif-less-secure-app-access-is-on-for-your-account]
-
+>**If you are using Gmail** you may have to **enable less secure apps** [by following this guide](https://support.google.com/accounts/answer/6010255?hl=en#zippy=%2Cif-less-secure-app-access-is-off-for-your-account%2Cif-less-secure-app-access-is-on-for-your-account
+)
 ## Next steps...
 
 Make sure you have two clis/terminals open. In the first one, run the following: `npm install && npm start`.
