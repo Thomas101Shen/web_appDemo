@@ -16,3 +16,6 @@ A tab should open up in your default browser, and the url should be "localhost:3
 In the second terminal, navigate into the api directory and run the following:
 
 `pip3 install -r requirements.txt && source bin/activate && flask run`
+
+## Finally
+Provide input into the given form fields at localhost:3000 as they are labeled and check your email inbox to see the email. For the "owner's" email address the email should have the client's name as the header and message and email address as the body. In the inbox of the email that was provided in the form field, the "client's" email, there should be an email with the header: Name and a little welcome message as the body.
