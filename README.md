@@ -1,6 +1,6 @@
 # The Purpose of this Repo...
 
-is to to provide a demo of my programming capeabilities and display my understanding of handling http requests. The user is shown a contact form where they may input their name, email address, and whatever message they want. The web application will send the data to the backend and send two emails-one to the owner of the website with the data given by the user, and the other to the user as a confirmation.
+is to to provide a demo of my programming capeabilities and display my understanding of handling http requests. The user is shown a contact form where they may input their name, email address, and whatever message they want. The web application will send the data to Cancel changesthe backend and send two emails-one to the owner of the website with the data given by the user, and the other to the user as a confirmation.
 
 ## Configuring files and setting up resources
 
@@ -16,6 +16,10 @@ A tab should open up in your default browser, and the url should be "localhost:3
 In the second terminal, navigate into the api directory and run the following:
 
 `pip3 install -r requirements.txt && source bin/activate && flask run`
+
+if the app doesn't start then run the following:
+
+`python pi.py`
 
 ## Finally
 Provide input into the given form fields at localhost:3000 as they are labeled and check your email inbox to see the email. For the "owner's" email address the email should have the client's name as the header and message and email address as the body. In the inbox of the email that was provided in the form field, the "client's" email, there should be an email with the header: Name and a little welcome message as the body.
